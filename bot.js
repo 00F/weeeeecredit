@@ -145,14 +145,14 @@ client8.on('message', message => {
 });
 client9.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '8say') {
+    if(message.content.toLowerCase().split(' ')[0] == '9say') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client10.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '8say') {
+    if(message.content.toLowerCase().split(' ')[0] == '10say') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
