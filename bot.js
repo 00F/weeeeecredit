@@ -279,37 +279,6 @@ s.delete(3000);
 }
 });
 /////////////////////////////////////////////////////////////////////////////////////////////////
-client1.on('ready', () => {
-client1.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client2.on('ready', () => {
-client2.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client3.on('ready', () => {
-client3.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client4.on('ready', () => {
-client4.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client5.on('ready', () => {
-client5.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client6.on('ready', () => {
-client6.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client7.on('ready', () => {
-client7.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client8.on('ready', () => {
-client8.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client9.on('ready', () => {
-client9.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-client10.on('ready', () => {
-client10.user.setActivity('Wee.', {type: "STREAMING",url: "http://www.twitch.tv/meercy"});
-});
-//////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
           if (message.author.bot) return;
       if(!message.channel.guild) return;
