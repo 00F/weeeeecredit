@@ -285,10 +285,10 @@ client1.on("message", message => {
         if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
-message.channel.send('->rep <@!228139766573432832>').then(s => {
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -299,7 +299,7 @@ client2.on("message", message => {
         if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
     if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -310,7 +310,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -321,7 +321,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -332,7 +332,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -343,7 +343,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -354,7 +354,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -365,7 +365,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -376,7 +376,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
@@ -387,7 +387,7 @@ if(!message.channel.guild) return;
   if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
 if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-message.channel.send('#rep <@!228139766573432832>').then(s => {
+message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
