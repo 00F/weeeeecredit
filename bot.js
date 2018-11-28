@@ -89,70 +89,70 @@ client10.on('ready', () => {
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '1say') {
+    if(message.content.toLowerCase().split(' ')[0] == '1s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client2.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '2say') {
+    if(message.content.toLowerCase().split(' ')[0] == '2s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client3.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '3say') {
+    if(message.content.toLowerCase().split(' ')[0] == '3s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client4.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '4say') {
+    if(message.content.toLowerCase().split(' ')[0] == '4s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client5.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '5say') {
+    if(message.content.toLowerCase().split(' ')[0] == '5s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client6.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '6say') {
+    if(message.content.toLowerCase().split(' ')[0] == '6s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client7.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '7say') {
+    if(message.content.toLowerCase().split(' ')[0] == '7s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client8.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '8say') {
+    if(message.content.toLowerCase().split(' ')[0] == '8s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client9.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '9say') {
+    if(message.content.toLowerCase().split(' ')[0] == '9s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
 client10.on('message', message => {
     if(message.author.id !== '228139766573432832') return;
-    if(message.content.toLowerCase().split(' ')[0] == '10say') {
+    if(message.content.toLowerCase().split(' ')[0] == '10s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
