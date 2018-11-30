@@ -158,125 +158,75 @@ client10.on('message', message => {
     }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
-client1.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
+client1.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-}
+client2.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-client2.on("message", message => {
-      if (message.author.bot) return;
-      if(!message.channel.guild) return;
-        if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-    if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-        let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
+client3.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-}
+client4.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-client3.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
+client5.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-}
+client6.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-client4.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
+client7.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-}
+client8.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-client5.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
+client9.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
-}
-});
-client6.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client7.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client8.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client9.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
-});
-client10.on("message", message => {
-    if (message.author.bot) return;
-    if(!message.channel.guild) return;
-      if(message.content.startsWith(prefix + "say")) {
-message.delete(3000);
-  if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
-      let args = message.content.split(" ").slice(1);
-message.channel.send(args).then(s => {
-s.delete(3000);
-});
-}
+client10.on('message', message => {
+    if(message.author.id !== '228139766573432832') return;
+    if(message.content.toLowerCase().split(' ')[0] == 'Wsay') {
+        if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
+        message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
+    }
 });
 /////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on("message", message => {
@@ -284,7 +234,7 @@ client1.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-    if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
@@ -298,108 +248,135 @@ client2.on("message", message => {
       if(!message.channel.guild) return;
         if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-    if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client3.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client4.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client5.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client6.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client7.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client8.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client9.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 client10.on("message", message => {
-    if (message.author.bot) return;
-if(!message.channel.guild) return;
-  if(message.content.startsWith(prefix + "rep")) {
+          if (message.author.bot) return;
+      if(!message.channel.guild) return;
+        if(message.content.startsWith(prefix + "rep")) {
 message.delete(3000);
-if(message.author.id !== "228139766573432832") return message.reply('You are not allowed to use this command!').then(msg => msg.delete(3000));
+    if(message.author.id !== "228139766573432832") return message.reply(' ').then(msg => msg.delete(3000));
 message.channel.send('#rep <@!286926707531841536>').then(s => {
+s.delete(3000);
+});
+message.channel.send('->rep <@!286926707531841536>').then(s => {
 s.delete(3000);
 });
 }
 });
 //////////////////////////////////////////////////////////////////////////////////////////////////
-client1.login(process.env.BOT1_TOKEN);
-client2.login(process.env.BOT2_TOKEN);
-client3.login(process.env.BOT3_TOKEN);
-client4.login(process.env.BOT4_TOKEN);
-client5.login(process.env.BOT5_TOKEN);
-client6.login(process.env.BOT6_TOKEN);
-client7.login(process.env.BOT7_TOKEN);
-client8.login(process.env.BOT8_TOKEN);
-client9.login(process.env.BOT9_TOKEN);
-client10.login(process.env.BOT10_TOKEN);
+client1.login(process.env.1);
+client2.login(process.env.2);
+client3.login(process.env.3);
+client4.login(process.env.4);
+client5.login(process.env.5);
+client6.login(process.env.6);
+client7.login(process.env.7);
+client8.login(process.env.8);
+client9.login(process.env.9);
+client10.login(process.env.10);
